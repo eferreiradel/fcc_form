@@ -3,13 +3,19 @@
     font-family: sans-serif;
     border-radius: 0.5rem;
     border: 0;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3A1078;
 }
 p {
     font-size: 1.3rem;
 }
 
 #survey-form {
-    background-color: lightblue;
+    background-color: #4E31AA;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +34,7 @@ textarea {
 }
 
 .form-fieldset {
+   
 
 
 }
@@ -42,11 +49,12 @@ textarea {
 }
 
 
-input::placeholder , select {
+input::placeholder , select , textarea::placeholder {
     font-size: 1rem;
     color: lightgray;
     padding-left: 0.5rem;
 }
+
 .info-field {
     width: 100%;
     min-height: 2.3rem;
@@ -61,6 +69,6 @@ footer {
 #submit-button { 
     width: 10rem;
     height: 2rem;
-    background-color: lightgreen;
+    background-color: #2fcd8b;
     color: white
 }
